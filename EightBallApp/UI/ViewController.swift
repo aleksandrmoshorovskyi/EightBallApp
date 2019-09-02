@@ -45,8 +45,7 @@ class ViewController: UIViewController {
             if let model = result {
                 completion(model)
             } else {
-                //TODO:
-                completion(ModelAnswer(answer: "Error"))
+                completion(ModelAnswer.getRandomAnswer())
             }
         }
     }
@@ -72,4 +71,3 @@ class ViewController: UIViewController {
         dataTask?.cancel()
     }
 }
-
