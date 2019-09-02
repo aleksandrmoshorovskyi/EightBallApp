@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var navigation: UINavigationItem!
+    
+    @IBAction func refreshButton(_ sender: Any) {
+
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
 }
 
